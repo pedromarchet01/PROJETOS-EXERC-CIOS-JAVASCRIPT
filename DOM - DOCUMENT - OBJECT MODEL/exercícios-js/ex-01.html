@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/ex01.css">
+  <title>Document</title>
+</head>
+<body>
+  <br>
+  <main>
+    <section id="formulário">
+     <div id="border">
+      <div id="form">
+        <label for="ivalor1">
+         <strong>Valor 1:</strong> <input type="text" name="valor1" id="ivalor1" size="20">
+        </label>
+        <br>
+        <br>
+        <label for="ivalor2">
+          <strong>Valor 2:</strong> <input type="text" name="valor2" id="ivalor2" size="20">
+        </label>
+        <br>
+        <br>
+        <strong>Opções:</strong>
+        <br>
+        <input type="radio" name="op" id="soma"> Soma
+        <br>
+        <input type="radio" name="op" id="sub"> Subtração
+        <br>
+        <input type="radio" name="op" id="multp"> Multiplicação
+        <br>
+        <input type="radio" name="op" id="divs"> Divisão
+        <br>
+        <br>
+        <strong>Resultado:</strong> <br>
+        <section id="saida">
+        </section>
+        <br>
+        <br>
+        <button type="submit" onclick="calcular()">Calcular</button>
+      </div>
+     </div>
+    </section>
+  </main>
+
+  <script src="js/ex-01.js"></script>
+</body>
+</html>

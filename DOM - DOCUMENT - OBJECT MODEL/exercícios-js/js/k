@@ -1,0 +1,22 @@
+if (ini.value.length =!  0 || fim.value.length ==  0 || passo.value.length ==  0) {
+   alert('PREENCHA CORRETAMENTE OS DADOS DE FIM E PASSO !');
+  } 
+  else if (ini.value.length ==  0 || fim.value.length !=  0 || passo.value.length ==  0) {
+    alert('PREENCHA CORRETAMENTE OS DADOS DE INÍCIO E PASSO !');
+  } 
+  else if (ini.value.length ==  0 || fim.value.length ==  0 || passo.value.length !=  0) {
+    alert('PREENCHA CORRETAMENTE OS DADOS DE FIM E INÍCIO !');
+  }
+  else if (ini.value.length !=  0 || fim.value.length !=  0 || passo.value.length ==  0) {
+    alert('PREENCHA CORRETAMENTE OS DADOS DE PASSO !');
+  }
+  else if (ini.value.length !=  0 || fim.value.length ==  0 || passo.value.length !=  0) {
+    alert('PREENCHA CORRETAMENTE OS DADOS DE FIM !');
+  }
+  else if (ini.value.length ==  0 || fim.value.length !=  0 || passo.value.length !=  0) {
+    alert('PREENCHA CORRETAMENTE OS DADOS DE INÍCIO !');
+  }
+  
+  else if (ini.value.length ==  0 || fim.value.length ==  0 || passo.value.length ==  0) {
+    alert('PREENCHA OS CAMPOS CORRETAMENTE!');
+  }
